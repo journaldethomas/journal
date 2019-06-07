@@ -1,3 +1,19 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseurl = "https://www.journaldungeek.com/"
+languageCode = "fr"
+title = "Journal d'un GEEK"
+theme = 'hestia'
+
+[author]
+ author = 'Thomas'
+ profile = 'Passionné de photographie mais pas que... Egalement interressé par les sites web, les podcasts, la domotique et autres objets connectés.'
+ image = 'image/theme/profile.jpg'
+
+[Params]
+ localeOgp = "fr"
+ description = "Journal d'un GEEK"
+ keywords = "geek,gohugo,web"
+ twitter = "journaldung33k"
+ #github = "diwao"
+ facebook = "journaldung33k"
+ #googleanalytics = "UA-12345678-9"
+ #googlecustomsearch = "xxxxxxxxx"
