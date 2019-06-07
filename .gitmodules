@@ -1,0 +1,3 @@
+[submodule "themes/hugo-cards"] 
+  path = themes/hugo-cards
+  url = git://bul-ikana/hugo-cards/
