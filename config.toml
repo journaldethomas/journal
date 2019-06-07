@@ -1,19 +1,27 @@
-baseurl = "https://www.journaldungeek.com/"
+baseURL = "https://www.journaldungeek.com/"
 languageCode = "fr"
-title = "Journal d'un GEEK"
-theme = 'hestia'
+title = "Journal d'un geek"
+theme = "hugo-cards"
+paginate = 9
 
-[author]
- author = 'Thomas'
- profile = 'Passionné de photographie mais pas que... Egalement interressé par les sites web, les podcasts, la domotique et autres objets connectés.'
- image = 'image/theme/profile.jpg'
+[params]
+#  builtBy = "bool"
+  defaultImage = "gopher.jpg"
 
-[Params]
- localeOgp = "fr"
- description = "Journal d'un GEEK"
- keywords = "geek,gohugo,web"
- twitter = "journaldung33k"
- #github = "diwao"
- facebook = "journaldung33k"
- #googleanalytics = "UA-12345678-9"
- #googlecustomsearch = "xxxxxxxxx"
+  facebook = "journaldung33k"
+#  quora = ""
+  twitter = "journaldung33k"
+#  github = "http://github.com/bul-ikana"
+  email = "thomas@journaldungeek.com"
+
+  fbLikeBox = ""
+  fbAppId = ""
+  fbPageUrl = ""
+  fbPageTitle = ""
+
+  analytics = ""
+  disqus = ""
+
+  [params.copyright]
+     name = "Thomas CHAUVIN"
+     link = "http://www.thomaschauvin.com"
