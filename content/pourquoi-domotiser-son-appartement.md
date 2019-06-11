@@ -4,6 +4,7 @@ title: "Pourquoi domotiser son appartement"
 categories: domotique
 img: image-3.png
 date: 2019-06-10
+draft: true
 ---
 La [domotique](https://fr.wikipedia.org/wiki/Domotique) est un monde qui m'intéresse depuis très longtemps mais je n'avais jamais eu l'opportunité de m'y pencher sérieusement. L'arrivée de mes enfants a été l'occasion de mettre en place plusieurs solutions pour automatiser les choses du quotidien. Par exemple l'ouverture/fermeture des volets roulants, le contrôle de la température dans les pièces ou encore gérer les lumières.
 

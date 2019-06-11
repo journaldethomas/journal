@@ -5,21 +5,19 @@ theme = "hugo-cards"
 paginate = 9
 
 [params]
-#  builtBy = "bool"
   defaultImage = "gopher.jpg"
 
-  facebook = "journaldung33k"
-#  quora = ""
-  twitter = "journaldung33k"
-#  github = "http://github.com/bul-ikana"
+  instagram = "https://www.instagram.com/journaldung33k/"
+  facebook = "https://www.facebook.com/journaldung33k"
+  twitter = "https://twitter.com/journaldung33k"
   email = "thomas@journaldungeek.com"
 
   fbLikeBox = ""
   fbAppId = ""
-  fbPageUrl = ""
+  fbPageUrl = "https://www.facebook.com/journaldung33k"
   fbPageTitle = ""
 
-  analytics = ""
+  analytics = "UA-141879724-1"
   disqus = ""
 
   [params.copyright]
