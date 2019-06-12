@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Journal d'un geek"
-categories: jekyll update
+categories: site web
 img: journal_dun_geek.jpg
 date: "2019-06-06"
 ---

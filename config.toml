@@ -1,25 +1,11 @@
 baseURL = "https://www.journaldungeek.com/"
+title = "Journal d'un Geek"
 languageCode = "fr"
-title = "Journal d'un geek"
-theme = "hugo-cards"
-paginate = 9
+paginate = 10
+theme = "binario"
 
-[params]
-  defaultImage = "gopher.jpg"
-
-  instagram = "https://www.instagram.com/journaldung33k/"
-  facebook = "https://www.facebook.com/journaldung33k"
-  twitter = "https://twitter.com/journaldung33k"
-  email = "thomas@journaldungeek.com"
-
-  fbLikeBox = ""
-  fbAppId = ""
-  fbPageUrl = "https://www.facebook.com/journaldung33k"
-  fbPageTitle = ""
-
-  analytics = "UA-141879724-1"
-  disqus = ""
-
-  [params.copyright]
-     name = "Thomas CHAUVIN"
-     link = "http://www.thomaschauvin.com"
+[Params]
+  description = "Journal d'un Geek se veut être un cahier de laboratoire, un journal d'expériences dans lequel je note tout mes essais."
+  columns = 2
+  mainSections = ["posts"]
+  dateFormat = "January 02, 2006"
