@@ -1,0 +1,3 @@
+Sitemap: https://www.journaldungeek.com/sitemap.xml
+User-agent: *
+Disallow:

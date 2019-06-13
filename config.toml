@@ -3,9 +3,22 @@ title = "Journal d'un Geek"
 languageCode = "fr"
 paginate = 10
 theme = "binario"
+googleAnalytics = "UA-141879724-1" # Enable Google Analytics by entering your tracking id
 
 [Params]
   description = "Journal d'un Geek se veut être un cahier de laboratoire, un journal d'expériences dans lequel je note tout mes essais."
+  copyright = "Thomas CHAUVIN" # Copyright holder, otherwise will use .Site.Title
+  opengraph = true # Enable OpenGraph if true
+  twitter_cards = true # Enable Twitter Cards if true
   columns = 2
   mainSections = ["posts"]
   dateFormat = "January 02, 2006"
+
+[Params.Social]
+  email = "thomas@journaldungeek.com"
+  facebook = "journaldung33k"
+  twitter = "journaldung33k"
+  instagram = "journaldung33k"
+
+[outputs]
+  home = ["HTML", "RSS"]
