@@ -1,5 +1,5 @@
 baseURL = "https://www.journaldungeek.com/"
-title = "Journal d'un Geek"
+title = "Journal d'un Geek - mon journal tech compréhensible par tous"
 languageCode = "fr"
 paginate = 8
 theme = "binario"
