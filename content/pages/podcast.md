@@ -1,6 +1,6 @@
 ---
 title: "Podcast"
-draft: false
+draft: true
 menu: main
 ---
 **Le Journal du Geek - Le podcast**
