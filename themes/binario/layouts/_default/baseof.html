@@ -15,8 +15,8 @@
            <meta property="og:site_name" content="{{ .Site.Title }}"/>
            <meta property="og:url" content="{{ .Site.BaseURL }}"/>
            <meta property="og:locale" content="fr">
-           <meta property="og:image" content="https://www.journaldungeek.com{{ .Site.Params.og_image | relURL }}"/>
-           <meta property="og:image:secure_url" content="{{ .Site.Params.og_image | absURL }}"/>
+           <meta property="og:image" content="https://www.journaldungeek.com{{ .Site.Params.image }}"/>
+           <meta property="og:image:secure_url" content="{{ .Site.Params.image | absURL }}"/>
 	{{- if .Site.Params.twitter_cards }}
 		{{ template "_internal/twitter_cards.html" . }}
 	{{- end }}

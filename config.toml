@@ -8,8 +8,7 @@ googleAnalytics = "UA-141879724-1" # Enable Google Analytics by entering your tr
 [Params]
   description = "Journal d'un Geek se veut être un cahier de laboratoire, un journal d'expériences dans lequel je note tout mes essais."
   copyright = "Thomas CHAUVIN" # Copyright holder, otherwise will use .Site.Title
-  opengraph = true # Enable OpenGraph if true
-  images = ["512.png"]
+  image = "/images/512.png"
   twitter_cards = true # Enable Twitter Cards if true
   columns = 2
   mainSections = ["posts"]
@@ -24,3 +23,6 @@ googleAnalytics = "UA-141879724-1" # Enable Google Analytics by entering your tr
 
 [outputs]
   home = ["HTML", "RSS"]
+
+[taxonomies]
+  series = "series"
