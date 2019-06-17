@@ -8,9 +8,15 @@
 	<title>{{ block "title" . }}{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Description }}{{ end }}">
-	{{- if .Site.Params.opengraph }}
-		{{ template "_internal/opengraph.html" . }}
-	{{- end }}
+	<!-- open graph -->
+           <meta property="og:type" content="website" />
+           <meta property="og:title" content="{{ .Site.Title }}"/>
+           <meta property="og:description" content="{{ .Site.Params.description }}"/>
+           <meta property="og:site_name" content="{{ .Site.Title }}"/>
+           <meta property="og:url" content="{{ .Site.BaseURL }}"/>
+           <meta property="og:locale" content="fr">
+           <meta property="og:image" content="https://www.journaldungeek.com{{ .Site.Params.og_image | relURL }}"/>
+           <meta property="og:image:secure_url" content="{{ .Site.Params.og_image | absURL }}"/>
 	{{- if .Site.Params.twitter_cards }}
 		{{ template "_internal/twitter_cards.html" . }}
 	{{- end }}
