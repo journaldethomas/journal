@@ -3,8 +3,8 @@ layout: post
 title: "Raspberry Pi comme box domotique"
 categories: domotique
 img: image-3.png
-date: 2019-06-10T13:51:20+02:00
-draft: true
+date: 2019-07-01T13:51:20+02:00
+draft: false
 ---
 On a vu précédemment pourquoi domotiser son appartement. Pour commencer cette nouvelle série d'articles je voulais commencer par le début : la box domotique. Il existe sur le marché de nombreux fabricants et même les grandes enseignes de bricolage propose aujourd'hui leur box. Il faut souvent compter autour des 200-300 euros pour une telle box. Ne voulant pas investir beaucoup d'argent dans un premier temps je suis partie sur une solution bien moins chère basée sur un [Raspberry Pi](https://fr.wikipedia.org/wiki/Raspberry_Pi). Cet ordinateur, qui a la taille d'une carte de crédit, est destiné à encourager l'apprentissage de la programmation informatique mais pas d'inquiétude il n'y a rien de bien compliqué. L'autre intérêt d'utiliser un raspberry est que vous ne confier pas vos données à quelqu'un d'autre. Je vais essayer de vous détailler ici les différentes étapes qui permettront d'utiliser un raspberry pi comme box domotique.
 
